@@ -1,0 +1,146 @@
+[
+    {
+      "id": "F001",
+      "applicantId": "A001",
+      "mentorName": "Dr. Smith",
+      "rating": 5,
+      "comments": "Excellent technical skills and great communication",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F002",
+      "applicantId": "A001",
+      "mentorName": "Prof. Johnson",
+      "rating": 4,
+      "comments": "Strong problem-solving abilities",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F003",
+      "applicantId": "A002",
+      "mentorName": "Dr. Williams",
+      "rating": 4,
+      "comments": "Good understanding of machine learning concepts",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F004",
+      "applicantId": "A002",
+      "mentorName": "Prof. Davis",
+      "rating": 5,
+      "comments": "Outstanding mathematical background",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F005",
+      "applicantId": "A003",
+      "mentorName": "Dr. Brown",
+      "rating": 2,
+      "comments": "Needs improvement in JavaScript fundamentals",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F006",
+      "applicantId": "A004",
+      "mentorName": "Prof. Wilson",
+      "rating": 5,
+      "comments": "Exceptional design portfolio and user-centered thinking",
+      "feedbackDate": "2025-06-14"
+    },
+    {
+      "id": "F007",
+      "applicantId": "A004",
+      "mentorName": "Dr. Taylor",
+      "rating": 4,
+      "comments": "Great attention to detail in design work",
+      "feedbackDate": "2025-06-14"
+    },
+    {
+      "id": "F008",
+      "applicantId": "A005",
+      "mentorName": "Prof. Martinez",
+      "rating": 3,
+      "comments": "Solid Java skills but needs more experience with frameworks",
+      "feedbackDate": "2025-06-14"
+    },
+    {
+      "id": "F009",
+      "applicantId": "A006",
+      "mentorName": "Dr. Garcia",
+      "rating": 4,
+      "comments": "Good mobile development experience",
+      "feedbackDate": "2025-06-13"
+    },
+    {
+      "id": "F010",
+      "applicantId": "A006",
+      "mentorName": "Prof. Rodriguez",
+      "rating": 5,
+      "comments": "Impressive cross-platform development skills",
+      "feedbackDate": "2025-06-13"
+    },
+    {
+      "id": "F011",
+      "applicantId": "A007",
+      "mentorName": "Dr. Lee",
+      "rating": 2,
+      "comments": "Limited practical experience with cloud platforms",
+      "feedbackDate": "2025-06-13"
+    },
+    {
+      "id": "F012",
+      "applicantId": "A008",
+      "mentorName": "Prof. Anderson",
+      "rating": 4,
+      "comments": "Strong strategic thinking and communication skills",
+      "feedbackDate": "2025-06-12"
+    },
+    {
+      "id": "F013",
+      "applicantId": "A008",
+      "mentorName": "Dr. Thompson",
+      "rating": 5,
+      "comments": "Natural leadership qualities and business acumen",
+      "feedbackDate": "2025-06-12"
+    },
+    {
+      "id": "F014",
+      "applicantId": "A009",
+      "mentorName": "Prof. White",
+      "rating": 3,
+      "comments": "Good theoretical knowledge, needs more hands-on experience",
+      "feedbackDate": "2025-06-12"
+    },
+    {
+      "id": "F015",
+      "applicantId": "A010",
+      "mentorName": "Dr. Clark",
+      "rating": 5,
+      "comments": "Outstanding research background and technical depth",
+      "feedbackDate": "2025-06-11"
+    },
+    {
+      "id": "F016",
+      "applicantId": "A010",
+      "mentorName": "Prof. Hall",
+      "rating": 4,
+      "comments": "Excellent implementation of ML algorithms",
+      "feedbackDate": "2025-06-11"
+    },
+    {
+      "id": "F017",
+      "applicantId": "A003",
+      "mentorName": "Dr. Young",
+      "rating": 1,
+      "comments": "Lacks basic understanding of modern web frameworks",
+      "feedbackDate": "2025-06-15"
+    },
+    {
+      "id": "F018",
+      "applicantId": "A007",
+      "mentorName": "Prof. King",
+      "rating": 3,
+      "comments": "Average performance in technical assessment",
+      "feedbackDate": "2025-06-13"
+    }
+  ]

@@ -1,0 +1,102 @@
+[
+    {
+      "id": "A001",
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "applicationDate": "2025-06-15",
+      "status": "accepted",
+      "position": "Software Developer Intern",
+      "university": "MIT",
+      "skills": ["JavaScript", "React", "Node.js"]
+    },
+    {
+      "id": "A002",
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "applicationDate": "2025-06-15",
+      "status": "pending",
+      "position": "Data Science Intern",
+      "university": "Stanford",
+      "skills": ["Python", "Machine Learning", "SQL"]
+    },
+    {
+      "id": "A003",
+      "name": "Mike Johnson",
+      "email": "mike.johnson@email.com",
+      "applicationDate": "2025-06-15",
+      "status": "rejected",
+      "position": "Frontend Developer Intern",
+      "university": "UC Berkeley",
+      "skills": ["HTML", "CSS", "JavaScript", "Vue.js"]
+    },
+    {
+      "id": "A004",
+      "name": "Sarah Wilson",
+      "email": "sarah.wilson@email.com",
+      "applicationDate": "2025-06-14",
+      "status": "accepted",
+      "position": "UX/UI Designer Intern",
+      "university": "RISD",
+      "skills": ["Figma", "Adobe XD", "User Research"]
+    },
+    {
+      "id": "A005",
+      "name": "David Brown",
+      "email": "david.brown@email.com",
+      "applicationDate": "2025-06-14",
+      "status": "pending",
+      "position": "Backend Developer Intern",
+      "university": "Carnegie Mellon",
+      "skills": ["Java", "Spring Boot", "PostgreSQL"]
+    },
+    {
+      "id": "A006",
+      "name": "Emily Davis",
+      "email": "emily.davis@email.com",
+      "applicationDate": "2025-06-13",
+      "status": "accepted",
+      "position": "Mobile Developer Intern",
+      "university": "Georgia Tech",
+      "skills": ["React Native", "Flutter", "Swift"]
+    },
+    {
+      "id": "A007",
+      "name": "Alex Garcia",
+      "email": "alex.garcia@email.com",
+      "applicationDate": "2025-06-13",
+      "status": "rejected",
+      "position": "DevOps Intern",
+      "university": "UT Austin",
+      "skills": ["Docker", "Kubernetes", "AWS"]
+    },
+    {
+      "id": "A008",
+      "name": "Lisa Martinez",
+      "email": "lisa.martinez@email.com",
+      "applicationDate": "2025-06-12",
+      "status": "accepted",
+      "position": "Product Manager Intern",
+      "university": "Wharton",
+      "skills": ["Product Strategy", "Agile", "Analytics"]
+    },
+    {
+      "id": "A009",
+      "name": "Chris Taylor",
+      "email": "chris.taylor@email.com",
+      "applicationDate": "2025-06-12",
+      "status": "pending",
+      "position": "Security Engineer Intern",
+      "university": "Caltech",
+      "skills": ["Cybersecurity", "Penetration Testing", "Python"]
+    },
+    {
+      "id": "A010",
+      "name": "Anna Rodriguez",
+      "email": "anna.rodriguez@email.com",
+      "applicationDate": "2025-06-11",
+      "status": "accepted",
+      "position": "Machine Learning Intern",
+      "university": "Harvard",
+      "skills": ["TensorFlow", "PyTorch", "Deep Learning"]
+    }
+  ]
