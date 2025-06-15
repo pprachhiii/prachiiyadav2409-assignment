@@ -14,7 +14,7 @@ A REST API backend microservice built with Node.js and Express.js that performs 
 ## Project Structure
 
 ```
-internship-analytics-microservice/
+backend/
 ├── controllers/
 │   └── analyticsController.js    # Request/Response logic
 ├── services/
@@ -157,7 +157,7 @@ Returns the top 5 applicants based on average mentor feedback scores in descendi
 * Neutral: Rating 3
 * Negative: Ratings 1 or 2
 
-## Testing with Postman or Insomnia
+## Testing with Postman
 
 ### Sample Requests
 
@@ -166,34 +166,30 @@ Returns the top 5 applicants based on average mentor feedback scores in descendi
    ```
    GET http://localhost:5000/health
    ```
+  
+![Health Check Screenshot](./assets/health_check.png)
 
 2. **Top Applicants**
 
    ```
    GET http://localhost:5000/api/applicants/top
    ```
+![Top Applicants](./assets/top_applicants.png)
 
 3. **Daily Statistics**
 
    ```
    GET http://localhost:5000/api/applicants/stats?date=2025-06-15
    ```
+![Daily Stats](./assets/daily_stats.png)
 
 4. **Feedback Summary**
 
    ```
    GET http://localhost:5000/api/feedback/summary
    ```
+![Feedback Summary](./assets/feedback_summary.png)
 
-### Response Format
-
-```json
-{
-  "success": boolean,
-  "data": object | array,
-  "message": string,
-  "error": string (only present on errors)
-}
 ```
 
 ## Sample Data Overview
@@ -217,65 +213,6 @@ npm start        # Start production server
 npm run dev      # Start development server
 ```
 
-## Error Handling
-
-* **400**: Invalid input or parameters
-* **404**: Endpoint not found
-* **500**: Internal server error
-
-## Sample Output Screenshots
-
-### Health Check
-
-```json
-{
-  "status": "OK",
-  "message": "Internship Analytics Microservice is running",
-  "timestamp": "2025-06-15T10:30:00.000Z"
-}
-```
-
-### Top Applicants
-
-```json
-{
-  "success": true,
-  "data": [
-    { "id": "A010", "name": "Anna Rodriguez", "score": 4.5 },
-    { "id": "A001", "name": "John Doe", "score": 4.5 }
-  ],
-  "message": "Top 5 applicants retrieved successfully"
-}
-```
-
-### Daily Stats
-
-```json
-{
-  "success": true,
-  "data": {
-    "date": "20250615",
-    "total": 3,
-    "accepted": 1,
-    "rejected": 1,
-    "pending": 1
-  },
-  "message": "Daily statistics for 2025-06-15 retrieved successfully"
-}
-```
-
-### Feedback Summary
-
-```json
-{
-  "success": true,
-  "data": {
-    "positive": 10,
-    "neutral": 4,
-    "negative": 4
-  },
-  "message": "Feedback summary retrieved successfully"
-}
 ```
 
 ## Security Considerations

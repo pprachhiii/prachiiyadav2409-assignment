@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const { applicantsPath, feedbackPath } = require('../config');
 
 class AnalyticsService {
   constructor() {
-    this.applicantsPath = path.join(__dirname, '../data/applicants.json');
-    this.feedbackPath = path.join(__dirname, '../data/feedback.json');
+    this.applicantsPath = applicantsPath;
+    this.feedbackPath = feedbackPath;
   }
-
   // Load applicants data
   loadApplicants() {
     try {
